@@ -11,6 +11,21 @@
 		88004D9E2CC5559D005846A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88004D9D2CC5559D005846A8 /* ContentView.swift */; };
 		88004DA02CC5559F005846A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88004D9F2CC5559F005846A8 /* Assets.xcassets */; };
 		88004DA42CC5559F005846A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88004DA32CC5559F005846A8 /* Preview Assets.xcassets */; };
+		88004DAC2CC5566A005846A8 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 88004DAB2CC5566A005846A8 /* ComposableArchitecture */; };
+		88004DAE2CC556A7005846A8 /* FilePickerReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88004DAD2CC556A7005846A8 /* FilePickerReducer.swift */; };
+		88004DB02CC556B1005846A8 /* FilePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88004DAF2CC556B1005846A8 /* FilePicker.swift */; };
+		88004DB42CC55791005846A8 /* UTType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88004DB32CC55791005846A8 /* UTType+Extensions.swift */; };
+		88004DB72CC5593F005846A8 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88004DB62CC5593F005846A8 /* Client.swift */; };
+		88004DB92CC55947005846A8 /* LiveKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88004DB82CC55947005846A8 /* LiveKey.swift */; };
+		88004DBB2CC5594E005846A8 /* TestKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88004DBA2CC5594E005846A8 /* TestKey.swift */; };
+		88004DBF2CC55AB1005846A8 /* FilePickerReducer+AlertState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88004DBE2CC55AB1005846A8 /* FilePickerReducer+AlertState.swift */; };
+		88004DC12CC55CCD005846A8 /* FileImporter+Composable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88004DC02CC55CCD005846A8 /* FileImporter+Composable.swift */; };
+		88004DC32CC55D1F005846A8 /* FilePickerItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88004DC22CC55D1F005846A8 /* FilePickerItemView.swift */; };
+		88004DC52CC569AC005846A8 /* FilePickerItemReducer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88004DC42CC569AC005846A8 /* FilePickerItemReducer+Extensions.swift */; };
+		88004DC72CC596E4005846A8 /* Int+FileSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88004DC62CC596E4005846A8 /* Int+FileSize.swift */; };
+		B66C51972CC6563A005FC4B9 /* View+ContentBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66C51962CC65633005FC4B9 /* View+ContentBox.swift */; };
+		B66C51992CC6573D005FC4B9 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66C51982CC65736005FC4B9 /* CGFloat+Extensions.swift */; };
+		B66C519D2CC657A3005FC4B9 /* FIlePickerItemReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66C519C2CC6579E005FC4B9 /* FIlePickerItemReducer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +35,20 @@
 		88004D9F2CC5559F005846A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88004DA12CC5559F005846A8 /* FilePickerDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FilePickerDemo.entitlements; sourceTree = "<group>"; };
 		88004DA32CC5559F005846A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		88004DAD2CC556A7005846A8 /* FilePickerReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePickerReducer.swift; sourceTree = "<group>"; };
+		88004DAF2CC556B1005846A8 /* FilePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePicker.swift; sourceTree = "<group>"; };
+		88004DB32CC55791005846A8 /* UTType+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UTType+Extensions.swift"; sourceTree = "<group>"; };
+		88004DB62CC5593F005846A8 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		88004DB82CC55947005846A8 /* LiveKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveKey.swift; sourceTree = "<group>"; };
+		88004DBA2CC5594E005846A8 /* TestKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestKey.swift; sourceTree = "<group>"; };
+		88004DBE2CC55AB1005846A8 /* FilePickerReducer+AlertState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FilePickerReducer+AlertState.swift"; sourceTree = "<group>"; };
+		88004DC02CC55CCD005846A8 /* FileImporter+Composable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileImporter+Composable.swift"; sourceTree = "<group>"; };
+		88004DC22CC55D1F005846A8 /* FilePickerItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePickerItemView.swift; sourceTree = "<group>"; };
+		88004DC42CC569AC005846A8 /* FilePickerItemReducer+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FilePickerItemReducer+Extensions.swift"; sourceTree = "<group>"; };
+		88004DC62CC596E4005846A8 /* Int+FileSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+FileSize.swift"; sourceTree = "<group>"; };
+		B66C51962CC65633005FC4B9 /* View+ContentBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+ContentBox.swift"; sourceTree = "<group>"; };
+		B66C51982CC65736005FC4B9 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		B66C519C2CC6579E005FC4B9 /* FIlePickerItemReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIlePickerItemReducer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88004DAC2CC5566A005846A8 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,11 +82,18 @@
 		88004D9A2CC5559D005846A8 /* FilePickerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B66C51A02CC668E9005FC4B9 /* FilePickerItem */,
+				88004DB52CC55937005846A8 /* FileClient */,
+				B66C519B2CC65785005FC4B9 /* Extensions */,
 				88004D9B2CC5559D005846A8 /* FilePickerDemoApp.swift */,
 				88004D9D2CC5559D005846A8 /* ContentView.swift */,
 				88004D9F2CC5559F005846A8 /* Assets.xcassets */,
 				88004DA12CC5559F005846A8 /* FilePickerDemo.entitlements */,
 				88004DA22CC5559F005846A8 /* Preview Content */,
+				88004DAD2CC556A7005846A8 /* FilePickerReducer.swift */,
+				88004DAF2CC556B1005846A8 /* FilePicker.swift */,
+				88004DBE2CC55AB1005846A8 /* FilePickerReducer+AlertState.swift */,
+				88004DC02CC55CCD005846A8 /* FileImporter+Composable.swift */,
 			);
 			path = FilePickerDemo;
 			sourceTree = "<group>";
@@ -67,6 +104,37 @@
 				88004DA32CC5559F005846A8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		88004DB52CC55937005846A8 /* FileClient */ = {
+			isa = PBXGroup;
+			children = (
+				88004DB62CC5593F005846A8 /* Client.swift */,
+				88004DB82CC55947005846A8 /* LiveKey.swift */,
+				88004DBA2CC5594E005846A8 /* TestKey.swift */,
+			);
+			path = FileClient;
+			sourceTree = "<group>";
+		};
+		B66C519B2CC65785005FC4B9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B66C51982CC65736005FC4B9 /* CGFloat+Extensions.swift */,
+				B66C51962CC65633005FC4B9 /* View+ContentBox.swift */,
+				88004DB32CC55791005846A8 /* UTType+Extensions.swift */,
+				88004DC62CC596E4005846A8 /* Int+FileSize.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B66C51A02CC668E9005FC4B9 /* FilePickerItem */ = {
+			isa = PBXGroup;
+			children = (
+				B66C519C2CC6579E005FC4B9 /* FIlePickerItemReducer.swift */,
+				88004DC22CC55D1F005846A8 /* FilePickerItemView.swift */,
+				88004DC42CC569AC005846A8 /* FilePickerItemReducer+Extensions.swift */,
+			);
+			path = FilePickerItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +153,9 @@
 			dependencies = (
 			);
 			name = FilePickerDemo;
+			packageProductDependencies = (
+				88004DAB2CC5566A005846A8 /* ComposableArchitecture */,
+			);
 			productName = FilePickerDemo;
 			productReference = 88004D982CC5559D005846A8 /* FilePickerDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +184,9 @@
 				Base,
 			);
 			mainGroup = 88004D8F2CC5559D005846A8;
+			packageReferences = (
+				88004DAA2CC5566A005846A8 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 88004D992CC5559D005846A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,7 +213,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88004DB42CC55791005846A8 /* UTType+Extensions.swift in Sources */,
+				88004DC32CC55D1F005846A8 /* FilePickerItemView.swift in Sources */,
+				88004DB92CC55947005846A8 /* LiveKey.swift in Sources */,
+				88004DC52CC569AC005846A8 /* FilePickerItemReducer+Extensions.swift in Sources */,
+				88004DBB2CC5594E005846A8 /* TestKey.swift in Sources */,
+				88004DB72CC5593F005846A8 /* Client.swift in Sources */,
+				88004DC72CC596E4005846A8 /* Int+FileSize.swift in Sources */,
+				88004DC12CC55CCD005846A8 /* FileImporter+Composable.swift in Sources */,
+				B66C519D2CC657A3005FC4B9 /* FIlePickerItemReducer.swift in Sources */,
+				88004DBF2CC55AB1005846A8 /* FilePickerReducer+AlertState.swift in Sources */,
 				88004D9E2CC5559D005846A8 /* ContentView.swift in Sources */,
+				88004DB02CC556B1005846A8 /* FilePicker.swift in Sources */,
+				88004DAE2CC556A7005846A8 /* FilePickerReducer.swift in Sources */,
+				B66C51972CC6563A005FC4B9 /* View+ContentBox.swift in Sources */,
+				B66C51992CC6573D005FC4B9 /* CGFloat+Extensions.swift in Sources */,
 				88004D9C2CC5559D005846A8 /* FilePickerDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +382,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -332,7 +420,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -359,6 +447,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		88004DAA2CC5566A005846A8 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.15.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		88004DAB2CC5566A005846A8 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 88004DAA2CC5566A005846A8 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 88004D902CC5559D005846A8 /* Project object */;
 }

@@ -9,13 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+      FilePicker(
+        store: .init(
+          initialState: .init(
+            selectionLimit: 5,
+            maximumSize: 10 * 1_024 * 1_024,
+            allowedContentTypes: [.pdf, .jpeg, .heic, .png, .html]
+          ), 
+          reducer: FilePickerReducer.init
+        )
+      )
+      .background(Color.background.ignoresSafeArea())
     }
 }
 
